@@ -1,0 +1,32 @@
+.header-step {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.header-step-number {
+    width: 35px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-right: .5em;
+    color: $brand-color-dark;
+    text-align: center;
+    background-color: #FFED00;
+    border-radius: 50%;
+    border: 1px solid #35459D;
+    padding: .375rem;
+
+    &--lg {
+        flex-basis: 72px;
+    }
+}
+
+.header-step-title {
+    font-size: 1em;
+    flex: 1 1 auto;
+
+    &--sm {
+        font-size: 1rem;
+    }
+}
