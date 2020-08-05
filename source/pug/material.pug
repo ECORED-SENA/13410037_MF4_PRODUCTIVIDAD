@@ -36,12 +36,12 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
-                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
-                                    +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('folder', 'Material complementario', '#anexos')
-                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
+                                    +navTemaItem('text', 'Introducción', 'main.html#page/introduccion/')
+                                    +navTemaItem('1', 'Clúster o cadena', 'main.html#page/cluster/')
+                                    +navTemaItem('2', 'Factores de mejoramiento institucional', 'main.html#page/factores/')
+                                    +navTemaItem('3', 'Importancia de medir la competitividad', 'main.html#page/importancia/')
+                                    +navTemaItem('4', 'Conclusión', 'main.html#page/conclusion/')
+                                    +navTemaItem('question', 'Actividad didáctica', 'main.html#page/actividad-1/')
 
 
         section#mainContent         
@@ -49,6 +49,12 @@ html(lang="es")
                 include pages/intro.pug
             #tema-1
                 include pages/1-tema.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug                                                
             #evaluacion
                 include pages/actividad-1.pug
             #glosario
